@@ -6,7 +6,7 @@ import java.util.List;
  */
 public class Planet
 {
-    String name;
+    private String name;
     List<Continent> continents= new ArrayList<>();
     List<Ocean> oceans = new ArrayList<>();
     List<Island>islands = new ArrayList<>();

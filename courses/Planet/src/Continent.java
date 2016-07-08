@@ -2,10 +2,10 @@
  * Created by Karina on 08.07.2016.
  */
 public class Continent {
-    String name;
-    long area;
-    long population;
-    String city;//most populous city
+    private String name;
+   private long area;
+   private long population;
+   private String city;//most populous city
 
     public Continent(String name, long area, long population, String city) {
         this.name = name;
